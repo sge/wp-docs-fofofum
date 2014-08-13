@@ -1,0 +1,62 @@
+code, kbd, pre, samp {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.api img {
+  display: block;
+  margin-top: 1em;
+}
+.api h2 {
+  border-bottom: 2px solid #EBEBEB;
+  font-size: 25px;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.entry-content pre {
+  display: block;
+  background-color: #F8F8F8;
+  border: 1px solid #DDD;
+  padding: 1rem 1.7rem;
+  margin: 15px 0;
+  margin: 1rem 0;
+  border-radius: 4px;
+
+  white-space: pre-wrap;
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+/*
+  word-break: break-all;
+  word-wrap: break-word;
+  word-wrap: normal;
+  */
+}
+.entry-content code {
+  display: block;
+  padding: 1rem 1.7rem;
+  margin: 15px 0;
+  margin: 1rem 0;
+  font-size: 13px;
+  line-height: 19px;
+  line-height: 1.428571429;
+  color: #333;
+  background-color: #F8F8F8;
+  border: 1px solid #DDD;
+  border-radius: 4px;
+
+  white-space: pre-wrap;
+  word-wrap: normal;
+  overflow: auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+.entry-content pre code {
+  display: inline;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
